@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rsz_back"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/brisiRibu"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:text="Briši"
+     />
+
+    <ImageView
+        android:id="@+id/slicica"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/brisiRibu"
+        android:layout_centerHorizontal="true"
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/Textvrste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/slicica"
+        android:layout_marginTop="18dp"
+        android:text="Vrsta Ribe: "
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/Textdogadaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/vrsta"
+        android:text="Događaj: " 
+        android:textColor="#E90407"/>
+
+    <TextView
+        android:id="@+id/Textid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vrsta"
+        android:layout_alignParentLeft="true"
+        android:text="ID"
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/ribaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vrsta"
+        android:layout_alignLeft="@+id/vrsta"
+        android:text=""
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/Texttehnika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Textdogadaj"
+        android:text="Tehnika ulova: "
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/Textupecao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Texttehnika"
+        android:text="Upecao: " 
+        android:textColor="#E90407"/>
+
+    <TextView
+        android:id="@+id/Textvrstarijeke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Textupecao"
+        android:text="Vrsta rijeke: "
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/Texttezine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Textvrstarijeke"
+        android:text="Težina Ribe: "
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/TextDuljina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Texttezine"
+        android:text="Duljina ribe: "
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/Textopis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextDuljina"
+        android:text="Opis: " 
+        android:textColor="#E90407"/>
+
+    <TextView
+        android:id="@+id/Textdatetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Textopis"
+        android:text="Vrijeme ulova: "
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/vrsta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Textvrste"
+        android:layout_alignBottom="@+id/Textvrste"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/dogadaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/vrsta"
+        android:text="" 
+        android:textColor="#E90407"/>
+
+    <TextView
+        android:id="@+id/tehnika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/dogadaj"
+        android:text="" 
+        android:textColor="#E90407"/>
+
+    <TextView
+        android:id="@+id/upecao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tehnika"
+        android:text="" 
+        android:textColor="#E90407"/>
+
+    <TextView
+        android:id="@+id/vrstarijeke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/upecao"
+        android:text=""
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/opis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/duljina"
+        android:text=""
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/opis"
+        android:text=""
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/tezina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/vrstarijeke"
+        android:text=""
+        android:textColor="#E90407" />
+
+    <TextView
+        android:id="@+id/duljina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Textopis"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:textColor="#E90407" />
+
+    <Button
+        android:id="@+id/azuriraj"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/buttonshape"
+      
+        android:text="Ažuriraj" />
+
+</RelativeLayout>

@@ -3,5 +3,52 @@
 
     <string name="app_name">FishNet</string>
     <string name="hello_world">Hello world!</string>
+    <string name="gplaces">Unesite lokaciju:</string>
+    <string name="desri">Slika za ikonicu prognoze</string>
+
+    <string-array name="lista_dogadaja">
+        <item>Upecan</item>
+        <item>Otpao</item>
+        <item>Viđen</item>
+    </string-array>
+    <string-array name="lista_vrsta_ribe">
+        <item>Stuka</item>
+        <item>Saran</item>
+        <item>Štuka</item>
+        <item>Šaran</item>
+        <item>Grgeč</item>
+        <item>Amur</item>
+        <item>Deverika</item>
+        <item>Som</item>
+        <item>Jez</item>
+        <item>Crvenperka</item>
+        <item>Babuška</item>
+        <item>Mrena</item>
+        <item>Linjak</item>
+        <item>Klen</item>
+        <item>Bolen</item>
+        <item>Pastrva</item>
+        <item>Zaba :)</item>
+        <item>Žaba :)</item>
+    </string-array>
+    <string-array name="lista_tehnika">
+        <item>Blinkerisanje</item>
+        <item>Senk</item>
+        <item>Mušičarenje</item>
+    </string-array>
+    <string-array name="lista_vrsta_rijeke">
+        <item>Rijeka</item>
+        <item>Ribnjak</item>
+        <item>Bara</item>
+        <item>Jezero</item>
+        <item>Potok</item>
+        <item>Slap</item>
+        <item>Ušće</item>
+        <item>Vodopad</item>
+        <item>Tekućica</item>
+        <item>Stajaćica</item>
+        <item>Močvara</item>
+        <item></item>
+    </string-array>
 
 </resources>

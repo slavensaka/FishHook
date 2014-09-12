@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  android:background="@drawable/rsz_back"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/ime"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="Ime izg. opreme"
+        android:textColorHint="#F8F2F6"
+        android:textColor="#C92027"
+        android:capitalize="characters" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/cijena"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ime"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Estimacija cijene"
+        android:inputType="number"
+        android:textColorHint="#F8F2F6"
+        android:textColor="#C92027" />
+
+    <Button
+        android:id="@+id/btnDel"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/izracunaj"
+        android:layout_alignBottom="@+id/izracunaj"
+        android:layout_toRightOf="@+id/izracunaj"
+        android:background="@drawable/buttonshape"
+        android:text="Briši sa popisa" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnDel"
+        android:choiceMode="multipleChoice"
+        android:divider="#FF9900"
+        android:smoothScrollbar="true"
+       >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/izracunaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cijena"
+        android:background="@drawable/buttonshape"
+        android:text="Dodaj na popis"
+          />
+
+    <Button
+        android:id="@+id/spremiSD"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:minHeight="50dip"
+        android:minWidth="84dip"
+        android:background="@drawable/buttonshape"
+        android:text="Spremi na SD"
+        android:textSize="10sp" />
+
+ <TextView
+        android:id="@+id/konacno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text=""
+        android:textColor="#00529B"
+         />
+    <Button
+        android:id="@+id/citajSD"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/spremiSD"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spremiSD"
+         android:background="@drawable/buttonshape"
+        android:text="Čitaj sa SD" 
+        android:textSize="10sp" />
+
+</RelativeLayout>

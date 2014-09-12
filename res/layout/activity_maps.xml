@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/map"
-    android:name="com.google.android.gms.maps.SupportMapFragment"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <fragment
+      
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/hybrid"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/normala"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/normala"
+        android:text="Hybrid"
+        android:textColor="#D70465" />
+
+    <EditText
+        android:id="@+id/mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Ime Lokacije"
+        android:textColor="#D80566"
+        android:textColorHint="#865642"
+        android:capitalize="characters" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/normala"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mark"
+        android:layout_marginTop="68dp"
+        android:text="Normal"
+        android:textColor="#D70465" />
+
+    <Button
+        android:id="@+id/tvoja_lokacija"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mark"
+        android:layout_marginTop="17dp"
+        android:onClick="Listen"
+        android:text="Save Marker"
+        android:textColor="#D70465" />
+
+</RelativeLayout>
