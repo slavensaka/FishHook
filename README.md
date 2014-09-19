@@ -1,12 +1,74 @@
-FishNet
-=======
+Upute za korištenje
 
-Moj projektni rad za kolegij Razvoj Mobilnih Aplikacija etfos-a
+1.	Prilikom prvog pokretanja pojavljuje se glavni izbornik u kojemu korisnik bira koji radnju želi izvest. Dostupne radnju su rad sa google mapama, unos informacija o ribi ili događaju, izrada tablice izgubljene opreme, kategorizacija korisnikove opreme, provjera prognoze i stvaranje albuma slika sa ribolovnog putovanja.
 
-FishNet je aplikacija za Android mobilne uređaje koja služi za ribiče profesionalce, amatere i entuzijaste. Aplikacija pomaže ribičima brzu izradu zabilješku ulovljenih riba, mjesta riboloca i ribolovno putovanja na lagan, brz i jednostavan način. FishNet je izrađen tako da se jednostavno dođe do željene opcije  i za što kraće vrijeme spreme određeni podaci, da se ne troši vrijeme za unos ovih podataka. Također ima mogućnost i kasnijeg unosa podataka, tako da korisnik ne mora prekinuti svoj ribolov. 
-Prilikom pokretanja aplikacije korisniku je za sada omogućeno korištenje šest opcija. Mogu se dodavati lokacije za ribolov na google mapi, brisanje lokacija na google mapi, mogućnost slikanja ulovljene, viđene ili otpale ribe, unošenje  nekoliko osnovnih informacija o događaju ili događajima, unošenje na popis izgubljene, pokidane i ukradene opreme  koje se događaju na ribolovnim putovanjima, kategoriziranje opreme po kategorijama, omogućena je provjera prognoze vremena pomoću servisa na openweathermap.org web stranici i stvorena je mogućnost kamerom zabilježit  korisnikovo ribolovno iskustvo, zasad samo slikama kamere. 
+![početna aktivnost](http://slaven-sakacic.from.hr/screenshots/Screenshot_2014-09-11-14-060.png)
 
-Android aplikacija razvijana je u Eclipse Luna razvojnom okruženju s instaliranim Android SDK i Android AVD paketima te sa dodatnom bibliotekom Google play services. Aplikacija je razvijana u programskom jeziku Java i XML jeziku za prikaz dokumenata (eng. Markup language). 
+2.	Odabirom gumba google maps korisnik ima novi izbornik.
 
-Aplikacija se može instalirati na mobilne uređaje s izdanjem Android operacijskog sustava 4.1 , instalacije unazad na Android OS 2.0 do 4 nisu uključene zbog različith bugova koji će se tek ukloniti. Za instalaciju je potrebno prenijeti apk datoteku na mobilni uređaj. Za korištenje potrebno je omogućit pristup internetu i gps(poželjno) za google maps i pristup internetu  za prognozu. Za ostale potrebe nije potreban pristup internetu i gps. 
-Potrebne su dodatne biblioteke  google play servisa google-play-services_lib i appcombat_v7. Dodati ove dvije biblioteke u projekt i postaviti u projektni build path. Potrebno u SDK manageru skinut google play services.  Uputa ima na internetu.
+![googlemaps](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-07-03.png)
+
+Može se izabrati da se doda marker ili vide sve do sada unijete lokacije.
+
+![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-07-33.png)![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-08-19.png)![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-09-08.png)
+
+![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-11-19.png)
+![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-11-40.png)
+
+Izborom sve lokacije, dobijemo popis svih lokacija:
+
+![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-15-29.png)![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-15-33.png)
+
+3.	Odabirom gumba dodaj ribu, korisnik može unijeti informacije o ribi, uslikati, ažurirati i brisati.
+
+![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-16-06.png)![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-19-26.png)![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-19-33.png)
+
+![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-24-54.png)![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-25-01.png)![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-25-32.png)
+
+4.	Odabirom gumba izgubljeno, korisnik izrađuje popis izgubljene opreme na ribolovnom događaju, izgubljenu, pokidanu, ukradenu i ostalo. Omogućeno je spremanje na SD karticu i čitanje popisa. 
+
+![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-26-12.png)![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-26-26.png)![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-26-31.png)
+
+![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-26-35.png)![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-29-07.png)![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-29-18.png)
+
+![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-29-26.png)![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-29-30.png)![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-29-52.png)
+
+5.	Odabirom gumba oprema  korisnik kategorizira svoju ribolovnu opremu po vrsti opreme, kategorije su dane unutar spinner izbornika:
+
+![](http://slaven-sakacic.from.hr/screenshots/4%20Oprema/Screenshot_2014-09-11-14-30-08.png)![](http://slaven-sakacic.from.hr/screenshots/4%20Oprema/Screenshot_2014-09-11-14-30-55.png)![](http://slaven-sakacic.from.hr/screenshots/4%20Oprema/Screenshot_2014-09-11-14-34-50.png)
+
+![](http://slaven-sakacic.from.hr/screenshots/4%20Oprema/Screenshot_2014-09-11-14-35-01.png)![](http://slaven-sakacic.from.hr/screenshots/4%20Oprema/Screenshot_2014-09-11-14-35-16.png)
+
+6.	Odabirom gumba weather, korisnik ima mogućnost provjere prognoze za svaki grad na svijetu, a najčešće će to biti lokacija na kojoj se nalazi. Prognoza se dohvaća sa besplatnog servisa openweathermap.org i autocomplete pretraga gradova je omogućena preko besplatnog google places servisa. 
+
+![](http://slaven-sakacic.from.hr/screenshots/5%20Weather/Screenshot_2014-09-11-14-35-30.png)![](http://slaven-sakacic.from.hr/screenshots/5%20Weather/Screenshot_2014-09-11-14-36-09.png)![](http://slaven-sakacic.from.hr/screenshots/5%20Weather/Screenshot_2014-09-11-14-36-16.png)
+
+![](http://slaven-sakacic.from.hr/screenshots/5%20Weather/Screenshot_2014-09-11-14-36-20.png)![](http://slaven-sakacic.from.hr/screenshots/5%20Weather/Screenshot_2014-09-11-14-36-39.png)
+
+7.	Odabirom gumba camera, korisnik ima mogućnost pregledati sve slike koje je dosad uslikao pod izbornikom „dodaj ribu“ i također može uslikati dodatne slike ovdje sa ribolovnih natjecanja i sličnih događanja gdje ove slike su spremljene u bazu podataka i također na SD karticu.  
+
+![](http://slaven-sakacic.from.hr/screenshots/Camera/Screenshot_2014-09-11-14-40-01.png)![](http://slaven-sakacic.from.hr/screenshots/Camera/Screenshot_2014-09-11-14-40-57.png)![](http://slaven-sakacic.from.hr/screenshots/Camera/Screenshot_2014-09-11-14-42-01.png)
+
+Literatura:
+
+[1].	https://developers.google.com/places/documentation/search
+
+[2].	http://www.androidhive.info/
+
+[3].	http://developer.android.com/guide/index.html
+
+[4].	http://developer.android.com/reference/packages.html
+
+[5].	http://stackoverflow.com
+
+[6].	http://openweathermap.org/current
+
+[7].	http://wptrafficanalyzer.in/blog/gps-and-google-map-in-android-applications-series/
+
+[8].	Pozadinska slika, http://www.morguefile.com/archive/display/915449
+
+[9].	http://developer.android.com/google/play-services/maps.html
+
+[10].	http://www.scorchworks.com/Blog/simple-file-dialog-for-android-applications/
+
+
