@@ -3,32 +3,32 @@
 Language is **Croatian**.
 
 
-1.	When first run, the main menu appears where you can select an action to perform. Available actions are working with google maps, entering information concerning a fish event, making a list of lost equipment, categorizing of equipment, cheking the forecast and creating galleries from fishing trips. 
+When first run, the main menu appears where you can select an action to perform. Available actions are working with google maps, entering information concerning a fish event, making a list of lost equipment, categorizing of equipment, cheking the forecast and creating galleries from fishing trips. 
 
 ![početna aktivnost](http://slaven-sakacic.from.hr/screenshots/Screenshot_2014-09-11-14-060.png)
 
-2.	Odabirom gumba google maps korisnik ima novi izbornik.
+Clicking on the google maps button a new page displays.
 
 ![googlemaps](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-07-03.png)
 
-Može se izabrati da se doda marker ili vide sve do sada unijete lokacije.
+One can choose to add a marker or see up until now entered locations.
 
 ![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-07-33.png)![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-08-19.png)![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-09-08.png)
 
 ![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-11-19.png)
 ![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-11-40.png)
 
-Izborom sve lokacije, dobijemo popis svih lokacija:
+Selecting all locations, we get a list of all locations:
 
 ![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-15-29.png)![](http://slaven-sakacic.from.hr/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-15-33.png)
 
-3.	Odabirom gumba dodaj ribu, korisnik može unijeti informacije o ribi, uslikati, ažurirati i brisati.
+Selecting the button to add the fish, the user can enter information about the fish, take a photo, update and delete the fish.
 
 ![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-16-06.png)![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-19-26.png)![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-19-33.png)
 
 ![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-24-54.png)![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-25-01.png)![](http://slaven-sakacic.from.hr/screenshots/2%20Dodaj%20Ribu/Screenshot_2014-09-11-14-25-32.png)
 
-4.	Odabirom gumba izgubljeno, korisnik izrađuje popis izgubljene opreme na ribolovnom događaju, izgubljenu, pokidanu, ukradenu i ostalo. Omogućeno je spremanje na SD karticu i čitanje popisa. 
+Selection the button lost, the user creates a list of lost equipment on the fishing event, lost, broken, stolen, and more. It is also possible to save to SD card and read later.
 
 ![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-26-12.png)![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-26-26.png)![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-26-31.png)
 
@@ -36,23 +36,23 @@ Izborom sve lokacije, dobijemo popis svih lokacija:
 
 ![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-29-26.png)![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-29-30.png)![](http://slaven-sakacic.from.hr/screenshots/3%20Izgubljeno/Screenshot_2014-09-11-14-29-52.png)
 
-5.	Odabirom gumba oprema  korisnik kategorizira svoju ribolovnu opremu po vrsti opreme, kategorije su dane unutar spinner izbornika:
+Pressing the button the users equipment categorizes the fishing equipment by type of equipment, categories are given within a spinner menu:
 
 ![](http://slaven-sakacic.from.hr/screenshots/4%20Oprema/Screenshot_2014-09-11-14-30-08.png)![](http://slaven-sakacic.from.hr/screenshots/4%20Oprema/Screenshot_2014-09-11-14-30-55.png)![](http://slaven-sakacic.from.hr/screenshots/4%20Oprema/Screenshot_2014-09-11-14-34-50.png)
 
 ![](http://slaven-sakacic.from.hr/screenshots/4%20Oprema/Screenshot_2014-09-11-14-35-01.png)![](http://slaven-sakacic.from.hr/screenshots/4%20Oprema/Screenshot_2014-09-11-14-35-16.png)
 
-6.	Odabirom gumba weather, korisnik ima mogućnost provjere prognoze za svaki grad na svijetu, a najčešće će to biti lokacija na kojoj se nalazi. Prognoza se dohvaća sa besplatnog servisa openweathermap.org i autocomplete pretraga gradova je omogućena preko besplatnog google places servisa. 
+Selecting the weather button, the user has the possibility to check the forecasts for any city in the world, and will often be the location where located. Weather is retrieved from the free service openweathermap.org and autocomplete searches towns is enabled through the free Google Places service.
 
 ![](http://slaven-sakacic.from.hr/screenshots/5%20Weather/Screenshot_2014-09-11-14-35-30.png)![](http://slaven-sakacic.from.hr/screenshots/5%20Weather/Screenshot_2014-09-11-14-36-09.png)![](http://slaven-sakacic.from.hr/screenshots/5%20Weather/Screenshot_2014-09-11-14-36-16.png)
 
 ![](http://slaven-sakacic.from.hr/screenshots/5%20Weather/Screenshot_2014-09-11-14-36-20.png)![](http://slaven-sakacic.from.hr/screenshots/5%20Weather/Screenshot_2014-09-11-14-36-39.png)
 
-7.	Odabirom gumba camera, korisnik ima mogućnost pregledati sve slike koje je dosad uslikao pod izbornikom „dodaj ribu“ i također može uslikati dodatne slike ovdje sa ribolovnih natjecanja i sličnih događanja gdje ove slike su spremljene u bazu podataka i također na SD karticu.  
+Selecting the camera button, the user has the ability to view all images that were previously photographed under the menu "add fish" and can also take more pictures from fishing contests and similar events where these images are stored in a database and also on the SD card.
 
 ![](http://slaven-sakacic.from.hr/screenshots/Camera/Screenshot_2014-09-11-14-40-01.png)![](http://slaven-sakacic.from.hr/screenshots/Camera/Screenshot_2014-09-11-14-40-57.png)![](http://slaven-sakacic.from.hr/screenshots/Camera/Screenshot_2014-09-11-14-42-01.png)
 
-Literatura:
+Literature:
 
 [1].	https://developers.google.com/places/documentation/search
 
