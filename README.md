@@ -1,6 +1,7 @@
 <h3>Explanation on use:</h3>
- Note. App is still in  **DEVELOPMENT**.
-Language is **Croatian**.
+ App still in  **DEVELOPMENT** v0.9.<br/>
+App language is **Croatian** for now.
+
 
 
 When first run, the main menu appears where you can select an action to perform. Available actions are working with google maps, entering information concerning a fish event, making a list of lost equipment, categorizing of equipment, cheking the forecast and creating galleries from fishing trips. 
