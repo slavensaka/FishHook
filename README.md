@@ -1,6 +1,9 @@
-Upute za korištenje
+<h3>Explanation on use:</h3>
+ Note. App is still in  **DEVELOPMENT**.
+Language is **Croatian**.
 
-1.	Prilikom prvog pokretanja pojavljuje se glavni izbornik u kojemu korisnik bira koji radnju želi izvest. Dostupne radnju su rad sa google mapama, unos informacija o ribi ili događaju, izrada tablice izgubljene opreme, kategorizacija korisnikove opreme, provjera prognoze i stvaranje albuma slika sa ribolovnog putovanja.
+
+1.	When first run, the main menu appears where you can select an action to perform. Available actions are working with google maps, entering information concerning a fish event, making a list of lost equipment, categorizing of equipment, cheking the forecast and creating galleries from fishing trips. 
 
 ![početna aktivnost](http://slaven-sakacic.from.hr/screenshots/Screenshot_2014-09-11-14-060.png)
 
