@@ -1,6 +1,6 @@
-<h3>Explanation on use:</h3>
- App still in  **DEVELOPMENT** v0.9.<br/>
-App language is **Croatian** for now.
+#Explanation on use:
+App still in  **DEVELOPMENT** v0.9.<br/>
+App language is **croatian** for now.
 
 
 When first run, the main menu appears where you can select an action to perform. Available actions are working with google maps, entering information concerning a fish event, making a list of lost equipment, categorizing of equipment, cheking the forecast and creating galleries from fishing trips. 
@@ -11,7 +11,7 @@ Clicking on the google maps button a new page displays.
 
 ![googlemaps](http://lukic.net76.net/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-07-03.png)
 
-One can choose to add a marker or see up until now entered locations.
+One can choose to add a marker or see until now entered locations.
 
 ![](http://lukic.net76.net/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-07-33.png)![](http://lukic.net76.net/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-08-19.png)![](http://lukic.net76.net/screenshots/1%20Google%20Maps/Screenshot_2014-09-11-14-09-08.png)
 
