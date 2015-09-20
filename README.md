@@ -5,7 +5,7 @@ App language is **croatian** for now.
 
 When first run, the main menu appears where you can select an action to perform. Available actions are working with google maps, entering information concerning a fish event, making a list of lost equipment, categorizing of equipment, cheking the forecast and creating galleries from fishing trips. 
 
-![početna aktivnost](http://slaven-sakacic.from.hr/Screenshot_2014-09-11-14-060.png)
+![početna aktivnost](http://slaven-sakacic.from.hr/screenshots/Screenshot_2014-09-11-14-060.png)
 
 Clicking on the google maps button a new page displays.
 
